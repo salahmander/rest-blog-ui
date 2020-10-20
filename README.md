@@ -1,5 +1,7 @@
 # Rest-Blog-Ui
-React user interface blog 
+React User Interface Blog 
+
+A blog app made using Django Rest Framework, Django Rest Auth, React, React Hooks, Axios, React Markdown and Semantic-UI. This application allows users to view the latest post on the blog. However, users are restricted on what they are able to do, depending on permissions and seeing whether they're authenticated. Users are required to signup and login to either create a post or update/delete the post, depending if they’re the author of the post.
 
 ### Creating New Post
 ![Create](https://user-images.githubusercontent.com/16756025/96649644-7015dd00-1329-11eb-89b6-1414eef5822b.png)
