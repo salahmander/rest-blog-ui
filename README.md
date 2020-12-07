@@ -1,7 +1,31 @@
 # Rest-Blog-Ui
 React User Interface Blog 
 
-A blog app made using Django Rest Framework, Django Rest Auth, React, React Hooks, Axios, React Markdown and Semantic-UI. This application allows users to view the latest post on the blog. However, users are restricted on what they are able to do, depending on permissions and seeing whether they're authenticated. Users are required to signup and login to either create a post or update/delete the post, depending if they’re the author of the post.
+This markdown blog is made using the Django Rest Framework and React. The main aim of this application was to implement markdown with a blog application. Markdown is a plain text formatting syntax aimed at making writing for the internet easier. The philosophy behind Markdown is that plain text documents should be readable without tags messing everything up, but there should still be ways to add text modifiers like lists, bold, italics, etc. The application allows users to create new blog posts, utilising markdown to generate aesthetically pleasing blogs.They can also view the latest blog posts. However, users are restricted on what they’re able to do, this is primarily down on the permission they have. Users are required to sign up and login to either create, update and delete blog posts, depending if they’re the author of the post.
+
+## Features:
+
+- User profile
+
+- Register
+
+- Login
+
+- Create new blog post
+
+- View blog post
+
+- Edit blog post
+
+- Delete blog post
+
+- Markdown
+
+## Tech Stack:
+
+- React, React Hoooks, Axios, React Markdown, Semantic-UI
+
+- Django Rest Framework, Django Rest Auth, SQLite
 
 ### Creating New Post
 ![Create](https://user-images.githubusercontent.com/16756025/96649644-7015dd00-1329-11eb-89b6-1414eef5822b.png)
